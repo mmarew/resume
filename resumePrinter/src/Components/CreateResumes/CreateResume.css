@@ -1,0 +1,15 @@
+.listOfSkills,
+.listOfLanguages {
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap !important;
+  align-items: center;
+}
+.languagesInput,
+.skillsWrapper input:focus,
+.skillsWrapper input:active,
+.skillsWrapper input {
+  height: 45px;
+  border: none;
+  outline: none;
+}

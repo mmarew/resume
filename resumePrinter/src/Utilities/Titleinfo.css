@@ -1,0 +1,14 @@
+.TitleInfo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 20px auto;
+}
+.TitleInfo hr {
+  /* width: 85%; */
+  flex: 1;
+  margin-left: 10px;
+  height: 1px;
+  background-color: rgb(73, 63, 63);
+  margin-top: 15px;
+}

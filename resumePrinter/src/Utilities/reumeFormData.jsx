@@ -1,0 +1,20 @@
+let resumeFormData = {
+  FullName: "",
+  Email: "",
+  Phone: "",
+  Profession: "",
+  describeYourself: "",
+  Address: "",
+  Linkedin: "",
+  Portifolio: "",
+  githubURL: "",
+  Education: [],
+  Experiences: [],
+  skills: "",
+  skillsList: [],
+  Certificates: [],
+  Languages: [],
+  References: "",
+  Achievements: [],
+};
+export default resumeFormData;

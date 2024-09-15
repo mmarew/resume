@@ -1,0 +1,97 @@
+main {
+  max-width: 793.701px;
+  margin: auto;
+  padding: 50px;
+}
+
+.headerWrapper {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.titleAndBorderWrapper {
+  display: flex;
+}
+.titleAndBorderWrapper span {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.pdfTableContainer hr {
+  width: 85%;
+  height: 1px;
+  background-color: rgb(73, 63, 63);
+  margin-top: 15px;
+}
+.profileImgWrapper {
+  height: 100px;
+}
+.profileImgWrapper img {
+  height: 100%;
+  width: 100%;
+}
+.descriptionWrapper {
+  max-width: 500px;
+  padding: 10px 20px;
+}
+.usersFllName {
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 5px 0;
+}
+.qrWrapper {
+  height: 100px;
+}
+
+.addressWrapper ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.addressWrapper ul li {
+  display: flex;
+  /* align-items: center; */
+  margin: 10px;
+}
+.addressWrapper a {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  /* text-decoration: ; */
+  color: black;
+}
+.addressWrapper a span {
+  margin-left: 10px;
+  width: 75%;
+  padding-right: 10px;
+  overflow-wrap: break-word;
+}
+
+.skillWrapper ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.EducationWrapper ul {
+  display: block;
+  list-style: none;
+}
+.EducationWrapper ul li {
+  padding: 10px;
+}
+.languageWrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.languageWrapper ul li {
+  margin-right: 10px !important;
+}
+.achievementsWrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tableHeader {
+  background-color: #6f9071;
+}
