@@ -27,7 +27,7 @@ function Register() {
         SERVER_PATH + "/register",
         registrationForm
       );
-      console.log("results==============> ", results);
+
       setIsLoading(false);
       setRegistrationForm(registersData);
       if (results?.data?.message.toLowerCase() === "success") {
@@ -86,7 +86,10 @@ function Register() {
             type="password"
           />
           {isLoading ? (
-            <Button disabled>loading.....</Button>
+            <>
+              <progress className="progress w-56"></progress>
+              <Button disabled>loading...</Button>
+            </>
           ) : (
             <Button type="submit" variant="contained">
               Register
